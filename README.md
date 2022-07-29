@@ -12,3 +12,5 @@ This means that a receiver retrieves a message by first reading the size of the 
 - Use Condition Variable (signaled by the thread that triggers the event) to implement the blocking
 - Use technique called `mutex_validator` to test whether critical sections are being accessed by more than one thread at a time
 - Debug using the helgrind tool `Valgrind`
+
+The complete project handout is included as `handout.pdf`
